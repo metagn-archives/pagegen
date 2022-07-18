@@ -19,7 +19,10 @@ when pkRst in supportedMarkups:
   import rstgen, rst, strtabs
 
 when pkMarggers in supportedMarkups:
-  import marggers/marggers
+  when (compiles do: import "../../marggers/src/marggers"):
+    import "../../marggers/src/marggers"
+  else:
+    import marggers
 
 proc loadHypertext*(page: Page, name: string, file: File) =
   if page.kind notin markups: return
