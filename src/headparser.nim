@@ -173,15 +173,15 @@ proc metaToHead*(meta: string): string =
 
 when isMainModule:
   echo metaToHead"""
-title: claude here
-title: "claude here"
-title "claude here"
+title: title here
+title: "title here"
+title "title here"
 title:
-  claude here
-  bro
+  title here
+  here
 link rel="css" whatever=src
 style:
-  lol {
-    haha
+  abc {
+    def
   }
 """

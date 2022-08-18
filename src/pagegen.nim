@@ -112,4 +112,4 @@ proc toHtml*(page: Page, tmpl: string): string =
   })
 
 when isMainModule:
-  echo metaToHead("""base(href="http://metagod.gq/" target="_blank")""")
+  echo metaToHead("""base(href="http://google.com/" target="_blank")""")
