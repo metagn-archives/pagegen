@@ -1,4 +1,4 @@
-import strutils, headparser
+import strutils, pagegen/headparser
 
 type
   PageKind* = enum

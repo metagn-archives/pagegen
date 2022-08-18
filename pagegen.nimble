@@ -1,8 +1,8 @@
 # Package
 
-version       = "0.1.1"
+version       = "0.1.2"
 author        = "hlaaftana"
-description   = "A new awesome nimble package"
+description   = "html page generator with custom head syntax"
 license       = "MIT"
 srcDir        = "src"
 
